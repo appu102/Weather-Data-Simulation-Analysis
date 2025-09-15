@@ -1,3 +1,4 @@
+import numpy as np
 days = int(input("Enter how many days weather report u want"))
 np.random.seed(42)
 temp = np.random.normal(loc= 30,scale=5,size = days).round(2)
